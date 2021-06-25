@@ -1,0 +1,264 @@
+/*      
+    Main Color Pallet:
+    Black Background:       #232931
+    Dark Gray               #393e46
+    Highlights:             #4ecca3
+    Text:                   #eeeeee
+
+*/
+
+body {
+    background-color: #232931;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: #4ecca3;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+hr {
+    border-color: #eeeeee;
+    border-style:dotted none none;
+    border-width: 7px;
+    width: 4%;
+    margin: 100px auto
+}
+
+.big-name {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    text-shadow: 2px 2px #393e46;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.title-card {
+    line-height: 1;
+}
+
+.top-container {
+    background-color: #bccfee;
+    color: #eeeeee;
+    position:relative;
+    padding-top:100px;
+    padding-bottom: 0;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.top-container p {
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color:#232931
+}
+
+.grass-border {
+    position:relative;
+    width:100%;
+    height:32px;
+    background-image: url("/img/Grass-border.png");
+    top:-60px;
+}
+
+.middle-container {
+    color: #eeeeee;
+    padding-top:50px; 
+}
+
+.profile {
+    width: 50%;
+    margin:auto;
+}
+
+.profile p {
+    width:50%;
+    margin:auto;
+    line-height: 2;
+}
+
+.profile-disclaimer {
+    width:100%;
+    line-height:5;
+    font-size: x-small;
+
+}
+
+.skills {
+    padding: auto;
+}
+
+.skill-row img {
+    position:initial;
+    display: flex;
+    width:25%;
+}
+
+.skill-img-left {
+    float:left;
+    margin-right:30px;
+}
+
+.skill-img-right {
+    float:right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    height: auto;
+    clear:both;
+    text-align: left;
+    line-height: 2;
+    overflow:auto;
+}
+
+.contact-me {
+    clear:both;
+    width:50%;
+    margin:auto;
+}
+
+.contact-me p {
+    margin: 40px auto 60px;
+}
+
+.bottom-container {
+    position:relative;
+    margin-top:2rem;
+    background-color: #bccfee;
+    height:250px;
+    padding-top:50px;
+}
+
+.bottom-container a { 
+    font-size: 3rem;
+    font-family: 'Sacramento';
+    color: #4ecca3;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    margin: 50px;
+    text-shadow: 2px 2px #393e46;
+} 
+
+.bottom-container a:hover { 
+    color: #4ecca3;font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 20px;
+    margin: 50px;
+} 
+
+.bottom-container p {
+    font-weight: bold;
+    color: #393e46;
+    margin-top: 90px;
+}
+   
+
+.top-cloud {
+    position:absolute;
+    right:300px;
+    top:100px;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.3));
+}
+
+.bottom-cloud {
+    position:absolute;
+    left:300px;
+    bottom:300px;
+    filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.3));
+}
+
+.mountain {
+    margin:0;
+    padding:0;
+    line-height: 0;
+}
+
+.grass-border-footer {
+    position:relative;
+    width:100%;
+    height:32px;
+    background-image: url("/img/Grass-border-footer.png");
+    top:-60px;
+}
+
+.footer-top-cloud {
+    position:absolute;
+    right:300px;
+    top:50px;
+    filter: drop-shadow(-9px -9px 9px rgba(0,0,0,0.3));
+}
+
+.footer-bottom-cloud {
+    position:absolute;
+    left:300px;
+    bottom:20px;
+    filter: drop-shadow(-9px -9px 9px rgba(0,0,0,0.3));
+}
+
+.circle-mode {
+    border-radius: 100%;
+}
+
+
+
+/******************************************/
+/* WARNING: SCARY MESSY BUTTON CODE AHEAD */
+/******************************************/
+
+.btn {
+    background: #5AD5AD;
+    background-image: -webkit-linear-gradient(top, #5AD5AD, #15A375);
+    background-image: -moz-linear-gradient(top, #5AD5AD, #15A375);
+    background-image: -ms-linear-gradient(top, #5AD5AD, #15A375);
+    background-image: -o-linear-gradient(top, #5AD5AD, #15A375);
+    background-image: -webkit-gradient(to bottom, #5AD5AD, #15A375);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #eeeeee;
+    font-family: 'lobster';
+    font-size: 40px;
+    font-weight: 200;
+    padding: 10px 25px 10px 25px;
+
+    /*border: outset #a1a1a1 4px;*/
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    
+    margin-bottom: 60px;
+ }
+ 
+ .btn:hover {
+    /*border: outset #3f3f3f 4px;*/
+    background: #15A375;
+    background-image: -webkit-linear-gradient(top, #15A375, #5AD5AD);
+    background-image: -moz-linear-gradient(top, #15A375, #5AD5AD);
+    background-image: -ms-linear-gradient(top, #15A375, #5AD5AD);
+    background-image: -o-linear-gradient(top, #15A375, #5AD5AD);
+    background-image: -webkit-gradient(to bottom, #15A375, #5AD5AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    text-shadow:none;
+    color: rgba(255,255,255,0.4);
+    text-shadow: 1px 2px 1px #eee, 0 0 0 #000, 1px 2px 1px #eee;
+ }
